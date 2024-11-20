@@ -1,0 +1,89 @@
+/*General*/
+body {
+  font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  color: white;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+/*header*/
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 15px 100px 100px 100px;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.header__logo {
+  font-size: 24px;
+}
+
+header a,
+.header__subtext {
+  color: #e5e7eb;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.header__bottom {
+  display: flex;
+}
+
+h1, 
+.header__logo {
+  color: #f9faf8;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+
+.header__subtext {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.header__left-container {
+  width: 450px;
+}
+
+.header__sign-up-button {
+  background-color: #3882f6;
+  border: none;
+}
+
+.header__right-container {
+  margin-left: 50px;
+  background-color: rgb(117, 117, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+/*main*/
+
+/*footer*/
