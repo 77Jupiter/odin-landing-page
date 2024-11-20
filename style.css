@@ -7,34 +7,54 @@ body {
   margin: 0;
 }
 
+header,
+footer {
+  background-color: #1f2937;
+}
+
+header a,
+.header__subtext {
+  color: #e5e7eb;
+}
+
 button {
   color: white;
   padding: 5px 25px;
   border-radius: 5px;
 }
 
+.header__right-container,
+.main__middle {
+  justify-content: center;
+  align-items: center;
+}
+
+.header__bottom,
+.header__right-container  {
+  display: flex;
+}
+
+.quote-author,
+.call-to-action__title {
+  font-weight: 700;
+}
+
 /*header*/
 
 header {
-  background-color: #1f2937;
   color: white;
   padding: 15px 200px 100px;
 }
 
 .header__top {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 100px;
 }
 
 .header__logo {
   font-size: 24px;
-}
-
-header a,
-.header__subtext {
-  color: #e5e7eb;
 }
 
 header a {
@@ -43,10 +63,6 @@ header a {
 
 header a:not(:last-child) {
   margin-right: 15px;
-}
-
-.header__bottom {
-  display: flex;
 }
 
 h1, 
@@ -79,9 +95,6 @@ h1 {
 .header__right-container {
   margin-left: 50px;
   background-color: rgb(117, 117, 117);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex: 1;
 }
 
@@ -118,11 +131,9 @@ h2 {
 }
 
 .main__middle {
+  display: flex;
   background-color: #e5e7eb;
   height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 80px;
 }
 
@@ -139,7 +150,6 @@ h2 {
 }
 
 .quote-author {
-  font-weight: 700;
   align-self: end;
   padding-right: 50px;
 }
@@ -151,18 +161,17 @@ h2 {
 }
 
 .main__call-to-action {
+  display: flex;
+  justify-content: space-between;
   color: white;
   padding: 40px 100px;
   background-color: #3882f6;
-  display: flex;
   align-items: center;
   border-radius: 10px;
-  justify-content: space-between;
   width: 100%;
 }
 
 .call-to-action__title {
-  font-weight: 700;
   margin-bottom: 3px;
 }
 
