@@ -18,7 +18,7 @@ button {
 header {
   background-color: #1f2937;
   color: white;
-  padding: 15px 100px 100px 100px;
+  padding: 15px 200px 100px;
 }
 
 .header__top {
@@ -84,6 +84,98 @@ h1 {
   justify-content: center;
   flex: 1;
 }
+
 /*main*/
+main {
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.main__top-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  color: rgb(105, 105, 105);
+  padding-bottom: 100px;
+}
+
+.main__subtext-container {
+  width: 150px;
+  text-align: center;
+}
+
+.subtext-container__box {
+  border: 3px solid #3882f6;
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.main__middle {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.main__quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 830px;
+}
+
+.quote-container {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-weight: 700;
+  align-self: end;
+  padding-right: 50px;
+}
+
+.main__bottom {
+  display: flex;
+  padding: 0 200px;
+  margin-bottom: 80px;
+}
+
+.main__call-to-action {
+  color: white;
+  padding: 40px 100px;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.call-to-action__title {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.call-to-action__sign-up {
+  color: rgb(226, 226, 226);
+  font-size: 14px;
+}
+
+.main__call-to-action button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  height: 25px;
+}
 
 /*footer*/
